@@ -1,2 +1,2 @@
 #!/bin/sh
-feh --no-fehbg --bg-fill ${HOME}/Pictures/backgrounds/spike.jpg
+feh --no-fehbg --bg-fill ${HOME}/.local/share/backgrounds/spike.jpg
