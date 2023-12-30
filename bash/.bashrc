@@ -17,7 +17,7 @@ _blue=$(tput setaf 4)
 _green_hl=$(tput setaf 10)
 _reset=$(tput sgr0)
 
-PS1='\u@\h:${_blue}\w${_green_hl} $(parse_git_branch)\$ ${_reset}'
+PS1='\u@\h:${_blue}\w${_green_hl} $(parse_git_branch)${_reset}\$ '
 
 # load aliases
 if [ -f ~/.bash_aliases ]; then
