@@ -4,6 +4,18 @@ live_config_reload = true
 history = 1000
 multiplier = 3
 
+[font.normal]
+family="Hack Nerd Font"
+
+[font.bold]
+family="Hack Nerd Font"
+
+[font.italic]
+family="Hack Nerd Font"
+
+[font.bold_italic]
+family="Hack Nerd Font"
+
 # Colors (Gruvbox dark)
 
 # Default colors
