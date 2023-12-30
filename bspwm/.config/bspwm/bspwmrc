@@ -26,6 +26,8 @@ if [[ $(xrandr -q | grep 'DP-5 connected') ]]; then
 fi
 
 bspc monitor HDMI-0 -d I II III IV V 
+# Enforce HDMI-0 to have I
+bspc monitor ^1 -s HDMI-0
 bspc monitor DP-5 -d VI VII VIII IX X
 
 # Window Management
