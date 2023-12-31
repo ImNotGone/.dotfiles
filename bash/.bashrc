@@ -31,7 +31,7 @@ _build_prompt() {
     #fi
 
     # build normal prompt
-    PS1="$PS1"'\u@\h:${_blue}\w${_green_hl}$(parse_git_branch)' 
+    PS1="$PS1"'\u@\h:${_blue}\w${_green_hl}$(parse_git_branch)'
 
     # add $
     PS1="${PS1}${_reset} \$ "
@@ -46,4 +46,8 @@ fi
 # load exports
 if [ -f ~/.bash_exports ]; then
 	. ~/.bash_exports
+fi
+
+if [ -f ~/.bash_local ]; then
+    . ~/.bash_local
 fi
